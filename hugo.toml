@@ -1,0 +1,62 @@
+baseURL = "https://akamonlabs.com/"
+languageCode = "en-us"
+title = "AkamonLabs"
+enableRobotsTXT = true
+theme = ["github.com/adityatelange/hugo-PaperMod"]
+
+[params]
+  description = "AkamonLabs — Apps for iOS, Android, and Mac."
+  defaultTheme = "light"
+  author = "AkamonLabs"
+  keywords = ["AkamonLabs", "StageWhisper", "iOS", "Android", "Mac", "Apps"]
+  # Disable blog-specific features
+  ShowShareButtons = false
+  ShowReadingTime = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = false
+  disableSpecial1stPost = true
+
+[params.cover]
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
+
+[params.assets]
+  disableFingerprinting = true
+
+# Homepage: hero-style landing with logo and app links
+[params.profileMode]
+  enabled = true
+  title = "AkamonLabs"
+  subtitle = "Apps for iOS, Android, and Mac"
+  imageUrl = "/img/logo.png"
+  imageTitle = "AkamonLabs"
+  imageWidth = 200
+  imageHeight = 200
+
+  [[params.profileMode.buttons]]
+    name = "StageWhisper"
+    url = "/stagewhisper/"
+
+# App-specific params (reusable in templates)
+[params.apps]
+  [params.apps.stagewhisper]
+    name = "StageWhisper"
+    # Uncomment and fill when available:
+    # appStoreUrl = "https://apps.apple.com/app/stagewhisper/idXXXXXX"
+    # playStoreUrl = "https://play.google.com/store/apps/details?id=com.akamonlabs.stagewhisper"
+
+# Navigation menu
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "stagewhisper"
+    name = "StageWhisper"
+    url = "/stagewhisper/"
+    weight = 20

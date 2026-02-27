@@ -1,0 +1,41 @@
+{{- /* Favicons */ -}}
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/img/favicon/site.webmanifest">
+<link rel="shortcut icon" href="/img/favicon/favicon.ico">
+
+{{- /* OpenGraph & Twitter Cards (Hugo internal templates) */ -}}
+{{- template "_internal/opengraph.html" . -}}
+{{- template "_internal/twitter_cards.html" . -}}
+
+{{- /* JSON-LD Structured Data: Organization */ -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AkamonLabs",
+  "url": "https://akamonlabs.com/",
+  "description": "{{ .Site.Params.description }}"
+}
+</script>
+
+{{- /* JSON-LD for SoftwareApplication pages */ -}}
+{{- if and .IsPage (eq .Section "stagewhisper") (not (in .Title "Privacy")) }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "url": "{{ .Permalink }}",
+  "applicationCategory": "Application",
+  "operatingSystem": "iOS, Android, macOS",
+  "author": {
+    "@type": "Organization",
+    "name": "AkamonLabs",
+    "url": "https://akamonlabs.com/"
+  }
+}
+</script>
+{{- end }}
