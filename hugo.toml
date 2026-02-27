@@ -6,7 +6,7 @@ theme = ["github.com/adityatelange/hugo-PaperMod"]
 
 [params]
   description = "AkamonLabs — Apps for iOS, Android, and Mac."
-  defaultTheme = "light"
+  defaultTheme = "auto"
   author = "AkamonLabs"
   keywords = ["AkamonLabs", "StageWhisper", "iOS", "Android", "Mac", "Apps"]
   # Disable blog-specific features
