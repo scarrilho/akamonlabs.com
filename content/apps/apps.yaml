@@ -1,0 +1,19 @@
+- name: "StageWhisper"
+  slug: "stagewhisper"
+  description: "Your stage whisper app description"
+  icon: "/img/apps/stagewhisper-icon.png"
+  url: "/apps/stagewhisper/"
+  platforms:
+    - ios
+    - android
+    - macos
+
+# Add more apps here following the same pattern:
+# - name: "App Name"
+#   slug: "app-slug"
+#   description: "Brief description"
+#   icon: "/img/apps/app-icon.png"
+#   url: "/apps/app-slug/"
+#   platforms:
+#     - ios
+#     - android

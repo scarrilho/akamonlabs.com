@@ -19,4 +19,4 @@ StageWhisper is an app by AkamonLabs.
 
 ---
 
-[Privacy Policy](/stagewhisper/privacy_policy.html)
+[Privacy Policy](/apps/stagewhisper/privacy_policy.html)

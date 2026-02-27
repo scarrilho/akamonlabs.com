@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy — StageWhisper"
 description: "Privacy Policy for StageWhisper by AkamonLabs."
-url: /stagewhisper/privacy_policy.html
+url: /apps/stagewhisper/privacy_policy.html
 layout: "single"
 draft: false
 hidemeta: true
