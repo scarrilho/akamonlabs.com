@@ -2,7 +2,7 @@
 title: "StageWhisper"
 description: ""
 layout: "single"
-draft: true
+draft: false
 hidemeta: true
 ShowToc: false
 disableShare: true
@@ -19,4 +19,4 @@ StageWhisper is an app by AkamonLabs.
 
 ---
 
-[Privacy Policy](/apps/stagewhisper/privacy_policy.html)
+[Privacy Policy](/apps/stagewhisper/privacy_policy.html) • [Terms of Service](/apps/stagewhisper/terms_of_service.html)

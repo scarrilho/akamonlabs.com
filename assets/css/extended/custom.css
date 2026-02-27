@@ -1,0 +1,5 @@
+/* Make profile image circular */
+.profile img {
+    border-radius: 50%;
+    object-fit: cover;
+}
