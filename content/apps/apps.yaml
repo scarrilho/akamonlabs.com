@@ -1,12 +1,11 @@
 - name: "StageWhisper"
   slug: "stagewhisper"
-  description: "Your stage whisper app description"
+  description: "Control you time on stage"
   icon: "/img/apps/stagewhisper-icon.png"
   url: "/apps/stagewhisper/"
   platforms:
     - ios
     - android
-    - macos
 
 # Add more apps here following the same pattern:
 # - name: "App Name"
