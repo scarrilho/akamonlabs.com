@@ -8,7 +8,7 @@ theme = ["github.com/adityatelange/hugo-PaperMod"]
   description = "AkamonLabs — Apps for iOS, Android, and Mac."
   defaultTheme = "auto"
   author = "AkamonLabs"
-  keywords = ["AkamonLabs", "StageWhisper", "iOS", "Android", "Mac", "Apps"]
+  keywords = ["AkamonLabs", "StageWhisper", "SudoZen", "iOS", "Android", "Mac", "Apps"]
   # Disable blog-specific features
   ShowShareButtons = false
   ShowReadingTime = false
@@ -46,6 +46,9 @@ theme = ["github.com/adityatelange/hugo-PaperMod"]
     # Uncomment and fill when available:
     # appStoreUrl = "https://apps.apple.com/app/stagewhisper/idXXXXXX"
     # playStoreUrl = "https://play.google.com/store/apps/details?id=com.akamonlabs.stagewhisper"
+  [params.apps.sudozen]
+    name = "SudoZen"
+    # playStoreUrl = "https://play.google.com/store/apps/details?id=com.akamonlabs.sudozen"
 
 # Navigation menu
 [menu]

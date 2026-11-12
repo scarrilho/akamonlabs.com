@@ -7,6 +7,14 @@
     - ios
     - android
 
+- name: "SudoZen"
+  slug: "sudozen"
+  description: "TODO: short description"
+  icon: "/img/apps/sudozen-icon.png"
+  url: "/apps/sudozen/"
+  platforms:
+    - android
+
 # Add more apps here following the same pattern:
 # - name: "App Name"
 #   slug: "app-slug"
