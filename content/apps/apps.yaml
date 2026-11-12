@@ -9,7 +9,7 @@
 
 - name: "SudoZen"
   slug: "sudozen"
-  description: "TODO: short description"
+  description: "Relaxing Sudoku with big numbers. No ads, no timers, no tracking."
   icon: "/img/apps/sudozen-icon.png"
   url: "/apps/sudozen/"
   platforms:

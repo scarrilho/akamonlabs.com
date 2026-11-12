@@ -1,6 +1,6 @@
 ---
 title: "SudoZen"
-description: ""
+description: "Relaxing Sudoku with big numbers. No ads, no timers, no tracking."
 layout: "single"
 draft: false
 hidemeta: true
